@@ -1,0 +1,28 @@
+.contactme {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #144272;
+}
+
+.contact-flexbox {
+    display: flex;
+}
+
+.title-container-contactme {
+    padding-left: 7%;
+}
+
+.title-container-contactme h1 {
+    color: #f8f8f2;
+}
+
+.contact-info {
+    padding-left: 15%;
+    color: white;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

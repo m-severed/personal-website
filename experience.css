@@ -1,0 +1,35 @@
+.experience {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #144272;
+}
+
+.title-container h1 {
+    padding-left: 20%;
+    color: #f8f8f2;
+}
+
+.experience-flexbox {
+    display: flex;
+}
+
+.title-container {
+    flex: 1; /* Takes up available space */
+    padding-right: 20px; /* Add some spacing between title and cards */
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column; /* Stacks the cards vertically */
+    flex: 2; /* Takes up available space */
+}
+
+.container {
+    width: 100%; /* Ensure cards take up the full width of their container */
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 800px; /* Set maximum width for the cards */
+    margin: 0 auto; /* Center the cards within the container */
+}
